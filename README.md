@@ -1,19 +1,85 @@
-# flutter_login_page
+# Flutter Login Page
 
-A new Flutter project created with FlutLab - https://flutlab.io
+<div align="center">
 
-## Getting Started
+<img src="images/icon.jpg" alt="App Logo" width="120" />
 
-A few resources to get you started if this is your first Flutter project:
+<br />
 
-- https://flutter.dev/docs/get-started/codelab
-- https://flutter.dev/docs/cookbook
+![Flutter](https://img.shields.io/badge/Flutter-Login%20UI-blue?style=for-the-badge&logo=flutter)
+![Dart](https://img.shields.io/badge/Dart-Programming-blue?style=for-the-badge&logo=dart)
+![Platform](https://img.shields.io/badge/Platform-Web%20%7C%20Mobile-lightgrey?style=for-the-badge)
 
-For help getting started with Flutter, view our
-https://flutter.dev/docs, which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+</div>
 
-## Getting Started: FlutLab - Flutter Online IDE
+## Giới thiệu
 
-- How to use FlutLab? Please, view our https://flutlab.io/docs
-- Join the discussion and conversation on https://flutlab.io/residents
+**Flutter Login Page** là một project giao diện đăng nhập được xây dựng bằng **Flutter/Dart**.  
+Project tập trung vào việc thiết kế màn hình login đơn giản, hiện đại, dễ nhìn và phù hợp cho bài thực hành Flutter UI.
+
+Giao diện sử dụng nền gradient, form đăng nhập dạng card, input field tùy chỉnh, nút login có hiệu ứng nhấn và animation fade-in nhẹ khi mở màn hình.
+
+## Demo
+
+### Hình ảnh giao diện
+
+> Lưu ý: hãy thêm ảnh chụp màn hình giao diện vào thư mục `images` và đặt tên là `login_screen.png`.
+
+<p align="center">
+  <img width="416" height="733" alt="image" src="https://github.com/user-attachments/assets/b70ca72c-4022-4b5c-bf67-6ef779848c89" />
+</p>
+
+### Video demo
+
+> Thay link bên dưới bằng link video demo thật của bạn sau khi quay xong.
+
+[Video demo project](PASTE_YOUR_VIDEO_LINK_HERE)
+
+## Tính năng chính
+
+- Thiết kế màn hình đăng nhập bằng Flutter.
+- Giao diện nền gradient hiện đại.
+- Card đăng nhập chứa logo, tiêu đề, email field và password field.
+- Custom widget cho ô nhập liệu.
+- Custom widget cho nút Login.
+- Hiệu ứng fade-in khi màn hình được load.
+- Hiệu ứng scale nhẹ khi nhấn nút Login.
+- Cấu trúc thư mục rõ ràng, dễ bảo trì.
+
+## Công nghệ sử dụng
+
+| Công nghệ | Mô tả |
+|---|---|
+| Flutter | Framework xây dựng giao diện đa nền tảng |
+| Dart | Ngôn ngữ lập trình chính |
+| Material Design | Bộ widget giao diện của Flutter |
+| AnimationController | Tạo hiệu ứng animation cho màn hình |
+| AnimatedScale | Tạo hiệu ứng nhấn cho nút Login |
+
+## Cấu trúc thư mục
+
+```bash
+flutter_login_page_dangngocduc/
+│
+├── android/
+├── ios/
+├── web/
+├── images/
+│   ├── icon.jpg
+│   └── login_screen.png
+│
+├── lib/
+│   ├── core/
+│   │   └── app_colors.dart
+│   │
+│   ├── screens/
+│   │   └── login_screen.dart
+│   │
+│   ├── widgets/
+│   │   ├── login_button.dart
+│   │   └── login_text_field.dart
+│   │
+│   └── main.dart
+│
+├── pubspec.yaml
+└── README.md
