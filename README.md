@@ -23,7 +23,7 @@ Giao diện sử dụng nền gradient, form đăng nhập dạng card, input fi
 ### Video demo
 
 
-[Video demo project](PASTE_YOUR_VIDEO_LINK_HERE)
+[Video demo project](https://youtu.be/joaE5ScRWlE)
 
 ### Hình ảnh giao diện
 
