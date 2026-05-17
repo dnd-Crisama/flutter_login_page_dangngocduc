@@ -23,15 +23,12 @@ Giao diện sử dụng nền gradient, form đăng nhập dạng card, input fi
 
 ### Hình ảnh giao diện
 
-> Lưu ý: hãy thêm ảnh chụp màn hình giao diện vào thư mục `images` và đặt tên là `login_screen.png`.
-
 <p align="center">
   <img width="416" height="733" alt="image" src="https://github.com/user-attachments/assets/b70ca72c-4022-4b5c-bf67-6ef779848c89" />
 </p>
 
 ### Video demo
 
-> Thay link bên dưới bằng link video demo thật của bạn sau khi quay xong.
 
 [Video demo project](PASTE_YOUR_VIDEO_LINK_HERE)
 
@@ -66,7 +63,6 @@ flutter_login_page_dangngocduc/
 ├── web/
 ├── images/
 │   ├── icon.jpg
-│   └── login_screen.png
 │
 ├── lib/
 │   ├── core/
